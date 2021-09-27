@@ -3,10 +3,6 @@
 public class Cat implements Domesticatable, Tradable {
     private int maxSpeed;
 
-    public Cat() {
-        this.maxSpeed = 1;
-    }
-
     @Override
     public String sound() {
         return "Meow!";

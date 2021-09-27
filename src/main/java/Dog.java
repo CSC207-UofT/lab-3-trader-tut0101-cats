@@ -3,9 +3,6 @@
 public class Dog implements Domesticatable, Tradable {
     private int maxSpeed;
 
-    public Dog() {
-        this.maxSpeed = 2;
-    }
 
     @Override
     public String sound() {
